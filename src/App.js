@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
 import { nanoid } from 'nanoid'
-
 import { Header } from './components/Header/Header'
 import { MainPage } from './pages/MainPage'
 import { ProfilePage } from './pages/ProfilePage'
@@ -24,7 +23,7 @@ const degaultMessges = {
   ]
 }
 
-export function App () {
+export function App() {
   const [messages, setMessages] = useState(degaultMessges)
   const [theme, setTheme] = useState(defaultContext.theme)
 
